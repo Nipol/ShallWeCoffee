@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: LGPL-3.0-or-later
  */
 
-pragma solidity ^0.6.0;
+pragma solidity >=0.5.0;
 
 interface IUniswapV2Factory {
     event PairCreated(
