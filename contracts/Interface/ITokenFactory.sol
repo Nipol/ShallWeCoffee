@@ -35,7 +35,7 @@ interface ITokenFactory {
         string memory name,
         string memory symbol,
         uint8 decimals
-    ) external payable returns (address result);
+    ) external returns (address result);
 
     function newTokenWithMint(
         bytes32 key,
@@ -44,7 +44,7 @@ interface ITokenFactory {
         string memory symbol,
         uint8 decimals,
         uint256 amount
-    ) external payable returns (address result);
+    ) external returns (address result);
 
     function calculateNewTokenAddress(
         bytes32 key,
